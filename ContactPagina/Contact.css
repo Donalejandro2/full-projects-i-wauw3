@@ -35,6 +35,7 @@ body {
     position: relative;
 }
 
+
 section {
     position: relative;
     display: flex;
@@ -44,6 +45,7 @@ section {
     background-image: url(/ContactPagina/ImagesContact/background.png);
     background-size: cover;
 }
+
 
 .container {
     position: relative;
@@ -57,6 +59,19 @@ section {
     border-radius: 10px;
 }
 
+.container .hola {
+    position: absolute;
+    width: 30%;
+    height: 20%;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    margin-left: 370px;
+    margin-top: 40px;
+    color: #1c52a6;
+    font-style: normal;
+}
+
 .container .contactinfo {
     position: absolute;
     width: 50%;
@@ -64,9 +79,9 @@ section {
     padding-left: 40px;
     text-align: left;
     font-size: 16px;
-    background: white;
     border: none;
     border-radius: 10px;
+    margin-top: 75px;
 }
 
 .container .contactinfo h2 {
@@ -78,7 +93,7 @@ section {
 }
 
 .container .contactinfo ul.info {
-    margin-top: 70px;
+    margin-top: 75px;
     position: relative;
 
 }
@@ -105,7 +120,7 @@ section {
 
     position: relative;
     display: flex;
-    margin-top: 140px;
+    margin-top: 130px;
 }
 
 .container .contactinfo ul.socialmedia li {
@@ -113,8 +128,8 @@ section {
     margin-right: 15px;
 }
 
-.container .contactinfo ul.socialmedia li a {
-    text-decoration: none;
+.container .contactinfo ul.socialmedia img {
+    width: 100%;
 }
 
 
@@ -125,7 +140,6 @@ section {
     height: 100%;
     margin-left: 550px;
     padding: 40px inherit;
-    background: white;
     border: none;
     border-radius: 10px;
 }
